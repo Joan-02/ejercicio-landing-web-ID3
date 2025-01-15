@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+}
+
+header {
+  background-image: url(images/background-image.jpg);
+  height: 100vh;
+  padding-bottom: 36px;
+}
+
+h1 {
+  font-family: inter;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #ef7d00;
+  padding: 0 12px;
+  margin: 0;
+}
+
+h2 {
+  font-family: inter;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding: 0 12px;
+  margin: 0;
+}
+
+p {
+  font-family: inter;
+  font-weight: lighter;
+  font-size: 20px;
+  color: white;
+  padding: 0 12px;
+  margin: 0;
+}
+
+button {
+  background-color: #ef7d00;
+  font-family: inter;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin: 12px 12px 0 12px;
+}
+
+.itemsheader {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.topbar {
+  display: flex;
+  padding: 36px 12px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.logo1 {
+  width: 91px;
+}
+
+.logo2 {
+  width: 170px;
+}
+
+.diseña {
+  color: black;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: inter;
+}
+
+.desarrolla {
+  color: black;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: inter;
+}

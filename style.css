@@ -68,16 +68,128 @@ button {
   width: 170px;
 }
 
+.section {
+  padding-top: 48px;
+}
+
+.titleandtextsectiondiseñadesarrolla {
+  margin-bottom: 34px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
 .diseña {
   color: black;
   font-size: 48px;
   font-weight: 400;
   font-family: inter;
+  line-height: 47px;
 }
 
 .desarrolla {
+  color: #ef7d00;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: inter;
+  padding-bottom: 12px;
+  line-height: 47px;
+}
+
+.textsection {
+  color: black;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.elementssectiondiseñadesarrolla {
+  background-color: #333;
+  border-radius: 7.52px;
+
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.textimage {
+  padding: 16px;
+}
+
+.studentwork {
+  color: #ef7d00;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.alexdasi {
+  color: white;
+  font-family: inter;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.imagesectiondiseñadesarrolla {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons {
+  text-align: right;
+  padding-bottom: 72px;
+}
+
+.buttoncarrusel {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.buttonright {
+  margin-left: 24px;
+}
+
+.sectiontwo {
+  background-color: #eef0f5;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  text-align: center;
+}
+
+.titlesectiontwo {
+  margin-bottom: 12px;
+}
+
+.proyectos {
   color: black;
   font-size: 48px;
   font-weight: 400;
   font-family: inter;
+  line-height: 47px;
+}
+
+.personalizados {
+  color: #ef7d00;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: inter;
+  padding-bottom: 12px;
+  line-height: 47px;
+}
+
+.textsectiontwo {
+  color: black;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 48px;
 }

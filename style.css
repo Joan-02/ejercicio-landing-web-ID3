@@ -1,53 +1,5 @@
 body {
-  margin: 0px;
-}
-
-header {
-  background-image: url(images/background-image.jpg);
-  height: 100vh;
-  padding-bottom: 36px;
-}
-
-h1 {
-  font-family: inter;
-  font-weight: lighter;
-  font-size: 20px;
-  color: #ef7d00;
-  padding: 0 12px;
   margin: 0;
-}
-
-h2 {
-  font-family: inter;
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
-  padding: 0 12px;
-  margin: 0;
-}
-
-p {
-  font-family: inter;
-  font-weight: lighter;
-  font-size: 20px;
-  color: white;
-  padding: 0 12px;
-  margin: 0;
-}
-
-button {
-  background-color: #ef7d00;
-  font-family: inter;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 6px;
-  margin: 12px 12px 0 12px;
-}
-
-.itemsheader {
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .topbar {
@@ -60,136 +12,145 @@ button {
   right: 0;
 }
 
-.logo1 {
+.logo {
+  width: auto;
+}
+
+.logo---esat {
   width: 91px;
 }
 
-.logo2 {
+.logo---id3 {
   width: 170px;
 }
 
-.section {
-  padding-top: 48px;
+.hero {
+  background-image: url(images/background-image.jpg);
+  height: 100vh;
+  padding-bottom: 36px;
 }
 
-.titleandtextsectiondiseñadesarrolla {
+.hero__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 12px;
+}
+
+.hero__title {
+  font-family: Inter, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #ef7d00;
+  margin: 0;
+}
+
+.hero__subtitle {
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.hero__text {
+  font-family: Inter, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+
+.btn {
+  background-color: #ef7d00;
+  font-family: Inter, sans-serif;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+
+.section {
+  padding: 48px 12px;
+}
+
+.section__content {
   margin-bottom: 34px;
 }
 
-.title {
+.section__title {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  line-height: 47px;
   margin-bottom: 12px;
 }
 
-.diseña {
+.highlight---black {
   color: black;
-  font-size: 48px;
-  font-weight: 400;
-  font-family: inter;
-  line-height: 47px;
 }
 
-.desarrolla {
+.highlight---orange {
   color: #ef7d00;
-  font-size: 48px;
-  font-weight: 400;
-  font-family: inter;
-  padding-bottom: 12px;
-  line-height: 47px;
 }
 
-.textsection {
+.section__text {
   color: black;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  margin: 0;
 }
 
-.elementssectiondiseñadesarrolla {
+.section__media {
   background-color: #333;
   border-radius: 7.52px;
-
-  margin-left: 12px;
-  margin-right: 12px;
+  margin: 0 12px;
 }
 
-.textimage {
+.media__info {
   padding: 16px;
 }
 
-.studentwork {
+.media__label {
   color: #ef7d00;
-  font-style: normal;
-  font-weight: 300;
   font-size: 10px;
+  font-weight: 300;
 }
 
-.alexdasi {
+.media__author {
   color: white;
-  font-family: inter;
+  font-family: Inter, sans-serif;
   font-weight: 600;
   font-size: 15px;
 }
 
-.imagesectiondiseñadesarrolla {
+.media__image {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.buttons {
+.carousel {
   text-align: right;
   padding-bottom: 72px;
 }
 
-.buttoncarrusel {
+.btn---carousel {
   width: 48px;
   height: 48px;
   border-radius: 50%;
   background-color: #333;
 }
 
-.buttonright {
+.btn---right {
   margin-left: 24px;
 }
 
-.sectiontwo {
+.section---projects {
   background-color: #eef0f5;
+  text-align: center;
   padding-top: 96px;
   padding-bottom: 72px;
-  text-align: center;
 }
 
-.titlesectiontwo {
-  margin-bottom: 12px;
-}
 
-.proyectos {
-  color: black;
-  font-size: 48px;
-  font-weight: 400;
-  font-family: inter;
-  line-height: 47px;
-}
 
-.personalizados {
-  color: #ef7d00;
-  font-size: 48px;
-  font-weight: 400;
-  font-family: inter;
-  padding-bottom: 12px;
-  line-height: 47px;
-}
-
-.textsectiontwo {
-  color: black;
-  text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  margin-bottom: 48px;
-}

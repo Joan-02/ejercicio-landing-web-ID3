@@ -152,5 +152,22 @@ body {
   padding-bottom: 72px;
 }
 
+.info-block__title {
+  color: #3C3C3C;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
 
-
+.info-block__text {
+  color: #3C3C3C;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0px;
+}

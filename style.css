@@ -94,12 +94,12 @@ body {
   color: #ef7d00;
 }
 
-.section__text {
+.design-dev__text {
   color: black;
   font-family: Inter, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  margin: 0;
+  margin: 0px;
 }
 
 .section__media {
@@ -152,6 +152,20 @@ body {
   padding-bottom: 72px;
 }
 
+.projects__text {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 58px;
+}
+
+.section__title---training {
+  margin-bottom: 58px;
+}
+
 .info-block__title {
   color: #3C3C3C;
   font-family: Inter, sans-serif;
@@ -170,4 +184,57 @@ body {
   font-weight: 400;
   line-height: 150%;
   margin: 0px;
+}
+
+.display-inline-block {
+  display: inline-block;
+  vertical-align: top; 
+}
+
+.info-block img {
+  max-width: 20%; 
+  margin-right: 16px; 
+}
+
+.info-block__content {
+  max-width: 80%; 
+  margin-bottom: 48px;
+}
+
+.img__section---training {
+  padding: 0px 12px;
+}
+
+.section---info {
+  background-image: url(images/background-image.jpg);
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.info__text {
+  color: #fff;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+
+.info__text--highlight {
+  font-family: Inter, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.btn---centered {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -167,7 +167,7 @@ body {
 }
 
 .info-block__title {
-  color: #3C3C3C;
+  color: #3c3c3c;
   font-family: Inter, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -177,7 +177,7 @@ body {
 }
 
 .info-block__text {
-  color: #3C3C3C;
+  color: #3c3c3c;
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -188,21 +188,22 @@ body {
 
 .display-inline-block {
   display: inline-block;
-  vertical-align: top; 
+  vertical-align: top;
 }
 
 .info-block img {
-  max-width: 20%; 
-  margin-right: 16px; 
+  max-width: 20%;
+  margin-right: 16px;
 }
 
 .info-block__content {
-  max-width: 80%; 
+  max-width: 80%;
   margin-bottom: 48px;
 }
 
 .img__section---training {
-  padding: 0px 12px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .section---info {
@@ -230,11 +231,4 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-}
-
-.btn---centered {
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }

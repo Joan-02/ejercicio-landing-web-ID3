@@ -99,7 +99,7 @@ body {
   font-family: Inter, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  margin: 0px;
+  margin-bottom: 22px;
 }
 
 .section__media {
@@ -131,7 +131,7 @@ body {
 
 .carousel {
   text-align: right;
-  padding-bottom: 72px;
+  padding-bottom: 24px;
 }
 
 .btn---carousel {
@@ -162,7 +162,7 @@ body {
   margin-bottom: 58px;
 }
 
-.section__title---training {
+.section__title---formation {
   margin-bottom: 58px;
 }
 
@@ -247,11 +247,11 @@ body {
   margin: 0 auto;
 }
 
-.section---matricula {
+.section---enrollment {
   padding: 0px 12px;
 }
 
-.section__title-matricula {
+.section__title-enrollment {
   font-size: 48px;
   font-weight: 400;
   font-family: Inter, sans-serif;
@@ -260,8 +260,42 @@ body {
   margin-top: 0px;
 }
 
-.img__section-matricula {
+.img__section-enrollment {
   width: 100%;
   max-width: 100%;
   margin-bottom: 0px;
+}
+
+.img__section---teachers {
+  margin-bottom: 10px;
+}
+
+.card__name {
+  color: #ef7d00;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+}
+
+.card__title {
+  color: #333;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+}
+
+.card__text {
+  color: #333;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 10px;
 }

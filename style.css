@@ -201,17 +201,25 @@ body {
   margin-bottom: 48px;
 }
 
-.img__section---training {
+.img__section {
   width: 100%;
   max-width: 100%;
+  margin-bottom: 72px;
 }
 
 .section---info {
   background-image: url(images/background-image.jpg);
   height: 80vh;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   position: relative;
+}
+
+.section__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra el div */
+  width: 80%; /* Ajusta el ancho */
 }
 
 .info__text {
@@ -232,3 +240,9 @@ body {
   font-weight: 800;
   line-height: normal;
 }
+
+.btn---centered {
+  display: block;
+  margin: 0 auto;
+}
+

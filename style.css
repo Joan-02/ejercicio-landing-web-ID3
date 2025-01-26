@@ -212,6 +212,7 @@ body {
   height: 80vh;
   text-align: center;
   position: relative;
+  margin-bottom: 84px;
 }
 
 .section__content {
@@ -246,3 +247,21 @@ body {
   margin: 0 auto;
 }
 
+.section---matricula {
+  padding: 0px 12px;
+}
+
+.section__title-matricula {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  line-height: 47px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.img__section-matricula {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
